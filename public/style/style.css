@@ -1,0 +1,80 @@
+body {
+  font-family: solaimanLipi !important;
+  background-image: url("../img/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+/* .btn {
+  background-color: #00004f;
+  color: white;
+  font-weight: 800;
+}
+.btn:hover {
+  color: white;
+  font-weight: 800;
+  background-color: red;
+} */
+input[type="email"] {
+  border: none;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+.btn_footer {
+  width: 100%;
+  text-align: center;
+  background-color: red !important;
+  color: aliceblue;
+  font-weight: bold;
+}
+.photo-frame-1 {
+  height: 100%;
+  width: 100%;
+}
+
+.photo-frame-1 .myPic {
+  position: absolute;
+  height: 94%;
+  width: 94%;
+ 
+}
+.photo-frame-1 .phtooFrame {
+  position: relative;
+  margin: 0;
+  z-index: 9;
+  width: 100% ;
+}
+.nameObject {
+  position: absolute;
+  bottom: 36%;
+  right: 25%;
+  z-index: 99999999999999999;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 40%;
+  color: #00004f
+}
+.frameHeader {
+  background-color: #4e4f006c;
+}
+.cropFrame{
+  width: 100%;
+  height: 100%;
+}
+.cropFrame .myeasycrop{
+  position: absolute;
+  overflow: hidden;
+}
+.cropFrame .easycropFrame{
+  position: relative;
+  width: 50%;
+  top: 0;
+  border: 2px solid red;
+
+}
